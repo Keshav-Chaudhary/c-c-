@@ -8,7 +8,7 @@ long long countInversions(int arr[], int n) {
             if (arr[i] > arr[j]) {
                 inversions++;
             }
-        }
+        }   
     }
     return inversions;
 }
