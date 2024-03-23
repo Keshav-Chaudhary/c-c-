@@ -48,7 +48,7 @@ int main() {
     //INSERTION AT HEAD 
     Node* head = Node1;//the new head pointed towards node1 here head pointer is used to insert at the head of linked list 
     InsertionAtHead(head,12);
-    cout<<"The linked list No.1 after the insertion of 12 at head  : Head -> ";
+    cout<<"The linked list No.1 after the insertion of 12 at head  : ";
     print(head);
     cout<<endl;
     //inserting more Node at Head 
@@ -56,15 +56,17 @@ int main() {
     InsertionAtHead(head,8);
     InsertionAtHead(head,45);
     InsertionAtHead(head,6);
-    cout<<"The linked list No.1 after the insertion of 5 Nodes at head  : Head -> ";
+    cout<<"The linked list No.1 after the insertion of 5 Nodes at head  : ";
     print(head);
     cout<<endl;
     
+
+    
     
 // run only one insertion at a time 
-/*    //INSERTION AT TAIL
+   //INSERTION AT TAIL
     Node* tail =Node1;//in the singly linked list the head and tail position are same so 10-> Null , here 10 is tail or head , tail pointer used to insert at the tail of Node 10
-    InsertionAtTail(tail,12);
+    /*InsertionAtTail(tail,12);
     cout<<"The linked list No.2 after the insertion of 12 at tail  : ";
     print(head);
     cout<<endl;
@@ -75,7 +77,9 @@ int main() {
     InsertionAtTail(tail,65);
     InsertionAtTail(tail,75);
     cout<<"The linked list No.2 after the insertion of 5 Nodes at tail : ";
-    print(head); */
+    print(head);*/
+    cout<<"HEAD : "<<head->data<<endl;
+    cout<<"TAIL : "<<tail->data<<endl; 
 
     return 0;
 }
